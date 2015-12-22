@@ -11,7 +11,6 @@ TOKEN=""
 
 # Command Handlers
 def start(bot, update):
-    bot.polling(none_stop=True)
     bot.sendMessage(update.message.chat_id, text='Hello! I\'m the WhatTheCommit bot!')
 
 def help(bot, update):
