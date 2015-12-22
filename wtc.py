@@ -38,7 +38,7 @@ def getcommit(bot, update, args):
     bot.sendMessage(update.message.chat_id, text)
 
 def main():
-    f = open('/home/ubuntu/workspace/WhatTheCommit/id/token.id', 'r')
+    f = open('/home/ubuntu/workspace/WhatTheCommitBot/id/token.id', 'r')
     TOKEN=f.read()
     # Create the EventHandler and pass it your bot's token.
     updater = Updater(TOKEN)
